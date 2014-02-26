@@ -1,4 +1,4 @@
 Portfolio
 =========
 
-My Projects
+Examples of my web design projects
