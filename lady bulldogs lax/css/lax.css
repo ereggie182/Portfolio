@@ -1,0 +1,19 @@
+.blog-header {
+	padding-top: 50px;
+}
+
+.navbar-default{
+	background-color: #fdd91b;
+    border-color: #e7e7e7;    
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+
+
+footer {
+	margin: 50px 0;
+}

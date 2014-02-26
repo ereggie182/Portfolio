@@ -1,0 +1,223 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+        #Site Styles
+        #Page Styles
+        #Media Queries
+        #Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+        /* Smaller than standard 960 (devices and browsers) */
+        @media only screen and (max-width: 959px) {          
+        }
+
+        /* Tablet Portrait size to standard 960 (devices and browsers) */
+        @media only screen and (min-width: 768px) and (max-width: 959px) {
+          ul li {
+            line-height: 18px;
+          }
+        }
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          ul li {
+            line-height: 18px;
+          }
+        }
+
+        /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          ul li {
+            line-height: 20px;
+          }
+          ul.nav {
+            width: 80%;
+          }         
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          ul li {
+            line-height: 20px;
+          }
+          ul.nav {
+            width: 80%;
+          }
+          ul.nav li {                     
+          padding:10px;           
+          }
+        }
+
+
+/* #Font-Face
+================================================== */
+/*         This is the proper syntax for an @font-face file
+                Just create a "fonts" folder at the root,
+                copy your FontName into code below and remove
+                comment brackets */
+
+/*        @font-face {
+            font-family: 'FontName';
+            src: url('../fonts/FontName.eot');
+            src: url('../fonts/FontName.eot?iefix') format('eot'),
+                 url('../fonts/FontName.woff') format('woff'),
+                 url('../fonts/FontName.ttf') format('truetype'),
+                 url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+            font-weight: normal;
+            font-style: normal; }
+*/
+
+
+
+/* Animation for text from Animate CSS */
+
+
+
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  } 100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  -moz-animation-name: fadeInRightBig;
+  -o-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes flash {
+  0%, 50%, 100% {opacity: 1;} 25%, 75% {opacity: 0;}
+}
+
+@-moz-keyframes flash {
+  0%, 50%, 100% {opacity: 1;} 
+  25%, 75% {opacity: 0;}
+}
+
+@-o-keyframes flash {
+  0%, 50%, 100% {opacity: 1;} 
+  25%, 75% {opacity: 0;}
+}
+
+@keyframes flash {
+  0%, 50%, 100% {opacity: 1;} 
+  25%, 75% {opacity: 0;}
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  -moz-animation-name: flash;
+  -o-animation-name: flash;
+  animation-name: flash;
+}
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  -moz-animation-name: fadeInUpBig;
+  -o-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
